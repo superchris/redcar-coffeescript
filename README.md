@@ -1,4 +1,4 @@
-Redcar Coffeescript Plug9in
+Redcar Coffeescript Plugin
 ============
 
 A little plugin to let you hack on coffeescript
@@ -11,7 +11,8 @@ A little plugin to let you hack on coffeescript
 
 <code>
     cd ~/.redcar/plugins
-    git clone git@github.com:superchris/redcar-coffeesscript.git coffeescript
+    git clone git@github.com:superchris/redcar-coffeescript.git coffeescript
+    cd coffeescript
     git submodule init
     git submodule update
     rm ~/.redcar/cache/textmate_bundles.cache
