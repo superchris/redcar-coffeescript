@@ -9,11 +9,14 @@ A little plugin to let you hack on coffeescript
 
 ###How do I install it?
 
-<code>
+
+    mkdir -p ~/.redcar/plugins
     cd ~/.redcar/plugins
-    git clone git@github.com:superchris/redcar-coffeesscript.git coffeescript
+    git clone git://github.com/superchris/redcar-coffeescript.git coffeescript
+    cd coffeescript
     git submodule init
     git submodule update
     rm ~/.redcar/cache/textmate_bundles.cache
-    Restart redcar (to force reload of tm bundle)
-</code>
+
+
+Then restart redcar (to force reload of tm bundle)
